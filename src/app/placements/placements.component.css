@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+}
+
+.placement-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.placement-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.placement-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.placement-form input[type="radio"] {
+    margin-right: 10px;
+}
+
+.placement-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.placement-form button:hover {
+    background-color: #45a049;
+}
